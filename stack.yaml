@@ -1,0 +1,12 @@
+resolver: lts-8.11
+packages:
+ - ../chronologique
+ - ../http-streams
+ - ../kalman
+ - ../konvig
+ - ../locators
+ - ../performers
+ - ../publish
+ - ../rosterium
+ - ../shlurp
+ - ../tablinator

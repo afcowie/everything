@@ -1,0 +1,16 @@
+cabal-version:       >= 1.24
+name:                everything
+version:             1
+synopsis:            Theory of Everything
+license:             BSD3
+license-file:        LICENCE
+author:              Andrew Cowie <andrew@operationaldynamics.com>
+maintainer:          Andrew Cowie <andrew@operationaldynamics.com>
+copyright:           © 2017 Operational Dynamics Consulting Pty Ltd, and Others
+category:            Text
+tested-with:         GHC == 8.0
+
+build-type:          Simple
+
+                      
+-- vim: set tabstop=21 expandtab:
