@@ -6,9 +6,9 @@ license:             BSD3
 license-file:        LICENCE
 author:              Andrew Cowie <andrew@operationaldynamics.com>
 maintainer:          Andrew Cowie <andrew@operationaldynamics.com>
-copyright:           © 2017 Operational Dynamics Consulting Pty Ltd, and Others
+copyright:           © 2017-2019 Operational Dynamics Consulting Pty Ltd, and Others
 category:            Text
-tested-with:         GHC == 8.0
+tested-with:         GHC == 8.4
 
 build-type:          Simple
 
