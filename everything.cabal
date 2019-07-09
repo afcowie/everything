@@ -12,5 +12,4 @@ tested-with:         GHC == 8.4
 
 build-type:          Simple
 
-                      
 -- vim: set tabstop=21 expandtab:

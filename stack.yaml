@@ -1,16 +1,22 @@
-resolver: lts-13.12
+resolver: lts-13.25
 packages:
- - ../chronologique
- - ../http-streams
+ - .
+ - /home/andrew/src/afcowie/chronologique
+ - /home/andrew/src/afcowie/http-streams
+ - /home/andrew/src/afcowie/locators
+ - /home/andrew/src/afcowie/rosterium
+ - /home/andrew/vcs/haskell/unbeliever
+ - /home/andrew/src/oprdyn/publish
+ - /home/andrew/src/oprdyn/briefcase
+
+extra-deps:
+ - megaparsec-7.0.5
+
+allow-newer: true
+
 #- ../kalman
 #- ../konvig
- - ../locators
 #- ../performers
- - ../rosterium
 #- ../shlurp
 #- ../tablinator
 #- ../maturity
- - /home/andrew/src/oprdyn/unbeliever
- - /home/andrew/src/oprdyn/publish
-
-allow-newer: true
