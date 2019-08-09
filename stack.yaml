@@ -1,16 +1,23 @@
-resolver: lts-13.25
+resolver: lts-14.0
 packages:
  - .
  - /home/andrew/src/afcowie/chronologique
+ - /home/andrew/src/afcowie/http-common
  - /home/andrew/src/afcowie/http-streams
  - /home/andrew/src/afcowie/locators
  - /home/andrew/src/afcowie/rosterium
- - /home/andrew/vcs/haskell/unbeliever
  - /home/andrew/src/oprdyn/publish
  - /home/andrew/src/oprdyn/briefcase
+ - /home/andrew/src/oprdyn/unbeliever/core-text
+ - /home/andrew/src/oprdyn/unbeliever/core-data
+ - /home/andrew/src/oprdyn/unbeliever/core-program
+ - /home/andrew/src/oprdyn/unbeliever/core-streaming
+ - /home/andrew/src/oprdyn/unbeliever/core-webserver-snap
+ - /home/andrew/src/oprdyn/unbeliever
 
 extra-deps:
  - megaparsec-7.0.5
+ - streamly-0.6.1
 
 allow-newer: true
 
