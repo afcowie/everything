@@ -8,8 +8,11 @@ author:              Andrew Cowie <andrew@operationaldynamics.com>
 maintainer:          Andrew Cowie <andrew@operationaldynamics.com>
 copyright:           © 2017-2019 Operational Dynamics Consulting Pty Ltd, and Others
 category:            Text
-tested-with:         GHC == 8.4
+tested-with:         GHC == 8.6
 
 build-type:          Simple
+
+library
+
 
 -- vim: set tabstop=21 expandtab:

@@ -1,4 +1,4 @@
-resolver: lts-14.0
+resolver: lts-14.15
 packages:
  - .
  - /home/andrew/src/afcowie/chronologique
@@ -11,15 +11,9 @@ packages:
  - /home/andrew/src/oprdyn/unbeliever/core-text
  - /home/andrew/src/oprdyn/unbeliever/core-data
  - /home/andrew/src/oprdyn/unbeliever/core-program
- - /home/andrew/src/oprdyn/unbeliever/core-streaming
- - /home/andrew/src/oprdyn/unbeliever/core-webserver-snap
+#- /home/andrew/src/oprdyn/unbeliever/core-streaming
+#- /home/andrew/src/oprdyn/unbeliever/core-webserver-snap
  - /home/andrew/src/oprdyn/unbeliever
-
-extra-deps:
- - megaparsec-7.0.5
- - streamly-0.6.1
-
-allow-newer: true
 
 #- ../kalman
 #- ../konvig
