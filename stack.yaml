@@ -1,19 +1,21 @@
-resolver: lts-14.22
+resolver: lts-16.12
 packages:
  - .
- - /home/andrew/src/afcowie/chronologique
- - /home/andrew/src/afcowie/http-common
- - /home/andrew/src/afcowie/http-streams
- - /home/andrew/src/afcowie/locators
- - /home/andrew/src/afcowie/rosterium
- - /home/andrew/src/oprdyn/publish
- - /home/andrew/src/oprdyn/briefcase
- - /home/andrew/src/oprdyn/unbeliever/core-text
- - /home/andrew/src/oprdyn/unbeliever/core-data
- - /home/andrew/src/oprdyn/unbeliever/core-program
-#- /home/andrew/src/oprdyn/unbeliever/core-streaming
-#- /home/andrew/src/oprdyn/unbeliever/core-webserver-snap
- - /home/andrew/src/oprdyn/unbeliever
+# - /home/andrew/src/istathar/rosterium
+ - /home/andrew/src/aesiniath/locators
+ - /home/andrew/src/aesiniath/chronologique
+ - /home/andrew/src/aesiniath/http-common
+ - /home/andrew/src/aesiniath/http-streams
+ - /home/andrew/src/aesiniath/publish
+#- /home/andrew/src/aesiniath/briefcase
+ - /home/andrew/src/aesiniath/unbeliever/core-text
+ - /home/andrew/src/aesiniath/unbeliever/core-data
+ - /home/andrew/src/aesiniath/unbeliever/core-program
+#- /home/andrew/src/aesiniath/unbeliever/core-streaming
+#- /home/andrew/src/aesiniath/unbeliever/core-webserver-snap
+ - /home/andrew/src/aesiniath/unbeliever
+#- /home/andrew/src/aesiniath/technique
+ - /home/andrew/src/istathar/graphics
 
 #- ../kalman
 #- ../konvig
@@ -21,3 +23,9 @@ packages:
 #- ../shlurp
 #- ../tablinator
 #- ../maturity
+
+extra-deps:
+ - ivar-simple-0.3.2
+ - /home/andrew/vcs/haskell/ghcide
+
+allow-newer: true
